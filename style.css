@@ -1,0 +1,95 @@
+@import url('https://fonts.cdnfonts.com/css/star-wars');
+                
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    background-color: black;
+}
+
+.howToPlay {
+    font-family: 'Star Wars', sans-serif;
+    text-align: center;
+    color: yellow;
+    font-size: 5vh;
+    padding: 3vh;
+}
+
+.road {
+    height: 550px;
+    background: url(images/road.jpg) repeat-x;
+}
+
+.road img {
+    position: relative;
+    display: block;
+    height: 100px;
+    width: 120px;
+}
+
+.road #starship1 {
+    top: 15px;
+}
+
+.road #starship2 {
+    top: 20px;
+}
+
+.road #starship3 {
+    top: 25px;
+}
+
+.road #starship4 {
+    top: 30px;
+}
+
+.road #starship5 {
+    top: 40px;
+}
+
+.funds {
+    color: yellow;
+    margin-top: 1vh;
+    text-align: center;
+}
+
+.bet {
+    color: yellow;
+    margin-top: 1vh;
+    text-align: center;
+}
+
+.buttons {
+    margin-top: 1.5vh;
+    text-align: center;
+}
+
+.buttons button {
+    font-weight: 200;
+    padding: 0.35rem 0.75rem;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.spacing {
+    padding: 0 1rem;
+}
+
+.buttons .go {
+    background-color: green;
+    text-transform: uppercase;
+}
+
+.buttons .go:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.buttons .reset {
+    background-color: red;
+    text-transform: uppercase;
+}

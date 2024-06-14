@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <div class="howToPlay">
+            <h6>Make a bet on the starship you think that will win the intergalactical race!</h6>
+        </div>
+        <div class="road">
+                <img src="images/starship1.png" alt="Starship one" id="starship1">
+                <img src="images/starship2.png" alt="Starship two" id="starship2">
+                <img src="images/starship3.png" alt="Starship three" id="starship3">
+                <img src="images/starship4.png" alt="Starship four" id="starship4">
+                <img src="images/starship5.png" alt="Starship five" id="starship5">    
+        </div>
+
+        <div class="funds">
+            <p>Funds: $ 100,00</p>
+        </div>
+        <div class="bet">
+            <label for="selectStarships">Make a bet:</label>
+            <select name="selectStarships" id="selectStarships">
+                <option value="starship1">Starship One</option>
+                <option value="starship2">Starship Two</option>
+                <option value="starship3">Starship Three</option>
+                <option value="starship4">Starship Four</option>
+                <option value="starship5">Starship Five</option>
+            </select>
+            <input type="text" name="Amount" id="betAmount">
+        </div>
+
+        <div class="buttons">
+            <button id="go" class="go" onclick="startRace()">Go!</button>
+            <span class="spacing"></span>
+            <button id="reset" class="reset" onclick="resetRace()">Reset</button>
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
